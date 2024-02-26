@@ -1,0 +1,105 @@
+.container-navbar{
+    width: 100%;
+    
+
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+    column-gap: 10px;
+    font-size: 22px;
+   
+    
+}
+.navbar a{
+    color: white;
+}
+
+.hero-section{
+    background-image: url(bg-img.jpg);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+}
+.hero-section h1{
+    font-size: 96px;
+
+}
+
+.hero-section h3{
+    font-size: 26px;
+    
+}
+
+.music-secetion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    column-gap: 30px;
+ background-color: rgb(7, 7, 92);
+  color: white;
+
+}
+
+.ipad-iphone-img{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+    display: grid;
+    place-items: center;
+}
+
+.movie-readmore-section{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.music-content{
+    background-image: url(video.png);
+    height: 100vh;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    
+    text-align: center;
+    color: white;   
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    background-color: rgb(10, 10, 27);
+    color: white;
+
+}
+.footer-section a{
+    text-decoration: none;
+    color: white;
+    
+}
+ul a { 
+    margin: 0; 
+}
+
+.footer-section p{
+    background-color: blue;
+}
